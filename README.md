@@ -16,7 +16,10 @@ php artisan migrate
 php artisan db:seed
 ```
 
-# Filament
+tenant panel: http://foo.filament-curator-with-laravel-tenancy.test/tenant
+
+
+# Info
 
 AdminPanelProvider and TenantPanelProvider
 1. Check those provider's plugins, I have to register both to make it work.
